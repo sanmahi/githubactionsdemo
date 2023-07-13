@@ -2,8 +2,8 @@ name: hello-world-workflow
 on: push
 jobs:
  my-workflowjob:
-  runs-on :ubuntu_latest
-  steps: 
+  runs-on :ubuntu-latest
+  steps:
     - name: myjob-step
       run: echo "hello from github actions"
  
